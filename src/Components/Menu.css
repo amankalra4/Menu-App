@@ -1,0 +1,33 @@
+.img {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+.contentDiv {
+    width: 60%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    word-wrap: break-word;
+    background-image: linear-gradient(-90deg, rgb(143, 132, 132), rgb(27, 27, 26));
+}
+
+button {
+    outline: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 4px 15px;
+    border-radius: 50%;
+}
+  
+button:hover {
+    background-color: #ddd;
+    color: black;
+}

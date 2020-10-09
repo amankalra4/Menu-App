@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: wheat;
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 20px;
+    }
+}
